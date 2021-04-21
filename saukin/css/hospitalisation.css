@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    /* height: 15%; */
+    /* border: solid yellow; */
+}
+
+h1, h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: solid blue; */
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#loading {
+    position: absolute;
+    z-index: -10;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+
+.fas {
+    font-size: 4em;
+    color: white;
+}
+
+button {
+    width: 200px;
+    height: 15vh;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border: double  white;
+    background-color: black;
+}
+
+#table {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+select {
+    height: 30px;
+    font-size: 1.1em;
+    /* margin-bottom: 40px; */
+}
+
+table {
+    width: 80%;
+    padding: 10px;
+    margin-top: 3em;
+    text-align: center;
+    box-shadow: grey 2px 2px 20px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chosen {
+    box-shadow: white 2px 2px 20px 5px;
+}
+
+table, th, tr, td {
+    border: solid 1px grey;
+    border-collapse: collapse;
+    color: whitesmoke;
+}
+
+td {
+    padding: 3px;
+    /* height: 2em; */
+}
+
+th {
+    height: 40px;
+    font-size: 1.2em;
+}
